@@ -4,23 +4,59 @@ body{
 .firstSection{
     background-color: hsl(216, 50%, 16%);
     width: 375px;
-    text-align: center;
+    text-align: left;
     margin: auto;
     padding-top: 50px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 60px;
     
+}
+div.content{
+    margin-left: 10px;
+    margin-right:10px;
+}
+p{
+    display:inline-block;
+    color:hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+p.eth{
+    color:hsl(178, 100%, 50%);
+    /*position: relative;
+    right:80px;*/
+
+}
+/*img.ethImg{
+    position: relative;
+    right:80px;*/
+}
+span.timeLeft{
+    position: absolute;
+    right:50px;
+
 }
 .image1{
-    width: 60%;
-    
+    display:flex ;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 85%;
+    max-width: 85%;
+    border-radius: 10px;
     /*position: relative;
-    align-content: center;
+    align-content: center;*/
 }
-.word1{
-    position: relative;
-    left: 300px;
-    bottom: 30px;
+h3.word1{
+    color: #ffff;
 
 }
-.word2{
 
+.jules{
+    color: aliceblue;
+}
+}
+.avatar{
+    position:relative;
+    right: 70px;;
 }
