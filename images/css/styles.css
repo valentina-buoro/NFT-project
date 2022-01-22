@@ -1,0 +1,26 @@
+body{
+    background-color:hsl(217, 54%, 11%)
+}
+.firstSection{
+    background-color: hsl(216, 50%, 16%);
+    width: 375px;
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    
+}
+.image1{
+    width: 60%;
+    
+    /*position: relative;
+    align-content: center;
+}
+.word1{
+    position: relative;
+    left: 300px;
+    bottom: 30px;
+
+}
+.word2{
+
+}
